@@ -1,0 +1,67 @@
+.main-header {
+  font-weight: 700;
+  font-size: large;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.bordered {
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.main-section {
+  margin-top: 20px;
+  padding: 20px 20px;
+}
+
+#mandela-picture {
+  width: 30%;
+  height: 30%;
+
+}
+
+.bio-info {
+  font-size: large;
+  width: 60%
+}
+
+/* @media screen and (max-width: 768px) and (min-width: 460px) {
+  body {
+    background-color: red !important;
+  } */
+
+@media screen and (max-width: 768px) {
+  body {
+    background-color: red !important;
+  }
+
+  body {
+    background-color: green;
+  }
+  
+  
+  .main-header {
+    font-size: x-large;
+    padding: 5px 5px;
+  }
+
+  .bio-container {
+    flex-direction: column;
+    width: 80%
+  }
+
+  #mandela-picture {
+    height: 250px;
+    width: 250px;
+    
+  }
+
+  .bio-info {
+    width: 80%;
+    align-self: start;
+  }
+
+
+
+}

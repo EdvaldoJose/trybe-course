@@ -1,0 +1,65 @@
+body {
+    font-family: fantasy;
+    color: rgb(3, 174, 213);
+
+}
+
+#praia {
+    width: 450px;
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    z-index: 1;
+}
+
+#edvaldo {
+    width: 200px;
+    position: absolute;
+    top: 170px;
+    left: 260px;
+    z-index: 2;
+
+}
+
+#oculos {
+    width: 100px;
+    position: absolute;
+    top: 200px;
+    left: 300px;
+    z-index: 3;
+}
+
+h1 {
+     position: absolute;
+     z-index: 4;
+    left: 40px;
+    left: 15px;
+    top: -10px;
+ }
+
+#song {
+    position: absolute;
+    z-index: 5;
+    top: 360px;
+}
+
+.farol {
+    width: 80px;
+    margin-right: 20px;
+}
+
+h1 {
+    color: lightsalmon;
+}
+
+
+
+
+
+
+
+
+
+
+
+

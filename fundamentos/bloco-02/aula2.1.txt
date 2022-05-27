@@ -1,0 +1,64 @@
+ 2002  cat >> comidas_maravilhosas.txt 
+ 2003  cp comidas_maravilhosas.txt comidas_maravilhosas2.txt
+ 2004  cat > comidas_maravilhosas2.txt 
+ 2005  diff comidas_maravilhosas.txt comidas_maravilhosas2.txt 
+ 2006  git log
+ 2007  git checkout -b pessoa1
+ 2008  cat >> 5coisas-js.txt
+ 2009  cat 5coisas-js.txt 
+ 2010  git branch
+ 2011  ls
+ 2012  git checkout -b pessoa2
+ 2013  ls
+ 2014  git branch
+ 2015  git status
+ 2016  cat >> 5coisas-js.txt 
+ 2017  git checkout master
+ 2018  ls
+ 2019  cat 5coisas-js.txt 
+ 2020  git status
+ 2021  rm 5coisas-js.txt 
+ 2022  ls
+ 2023  git status 
+ 2024  git add .
+ 2025  git commit -m 'Comidas' 
+ 2026  git log
+ 2027  ls
+ 2028  git branch -d pessoa1
+ 2029  git branch -d pessoa2
+ 2030  git branch
+ 2031  git checkout -b pessoa1
+ 2032  git status
+ 2033  cat >> 5coisas.txt
+ 2034  ls
+ 2035  git add .
+ 2036  git commit -m 'Adicionando 5 coisas'
+ 2037  ls
+ 2038  git checkout master
+ 2039  ls
+ 2040  zsh
+ 2041  git status
+ 2042  git checkout -b pessoa2
+ 2043  ls
+ 2044  cat >> 5coisas.txt
+ 2045  ls
+ 2046  cat 5coisas.txt 
+ 2047  git status
+ 2048  git add . 
+ 2049  git commit -m 'Incluindo 5 coisas'
+ 2050  ls
+ 2051  cat 5coisas.txt 
+ 2052  git checkout pessoa1
+ 2053  cat 5coisas.txt 
+ 2054  git checkout master
+ 2055  cat 5coisas.txt 
+ 2056  git branch
+ 2057  git log
+ 2058  git merge pessoa1
+ 2059  ls
+ 2060  git status
+ 2061  cat 5coisas.txt 
+ 2062  git branch -d pessoa1
+ 2063  git merge pessoa2
+ 2064  ls
+ 2065  cat 5coisas.txt 

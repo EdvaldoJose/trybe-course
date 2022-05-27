@@ -1,0 +1,3 @@
+ 1089  cat animais_raivosos.txt 
+ 1090  history | tail -n 3
+ 1091  history | tail -n 3 | cat > history.txt

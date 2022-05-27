@@ -1,0 +1,12 @@
+Copiando arquivos e diretórios no linux.
+----------------------------------------------------
+$ cp -r nome/arquivo-ou-dir destino/
+----------------------------------------------------
+Usando atributos para informação no mento da cópia.
+---------------------------------------------------- 
+$ cp -Rv -i imagens/edvaldo pasta2/
+----------------------------------------------------
+Obs.: 
+O uso do comando cp serve para copiar arquivos e
+diretórios que não estão vazios.
+Vamos codar! :)

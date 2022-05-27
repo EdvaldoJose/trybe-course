@@ -1,0 +1,46 @@
+p, div {
+    font-family: monospace;
+}
+
+#bauru-header {
+    font-family: "garamond", "Palatino", serif;
+    color: red;
+
+}
+
+.fato {
+    border-top: 1px solid rgb(222, 222, 222);
+    border-bottom: 1px solid rgb(222, 222, 222);
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.perigo {
+    background-color: red;
+    color: white;
+    border: 10px solid yellow;
+    font-style: monospace;
+}
+
+#gostoso {
+    background-color: red;
+    color: white;
+}
+
+p.perigo {
+    border: 5px;
+
+}
+ ul.ingredientes-bauru {
+     background-color: green;
+     color: white;
+
+ }
+
+ li:hover {
+     background-color: green;
+ }
+
+ li:active {
+     color: white;
+ }

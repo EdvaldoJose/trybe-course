@@ -1,0 +1,49 @@
+p {
+    font-family: monospace;
+}
+
+#bauru-header {
+    font-family: "garamond", "Palatino", serif;
+    color: blue;
+}
+
+.fato {
+    border-top: 1px solid rgb(209, 88, 88);
+    border-bottom: 1px solid rgb(121, 219, 144);
+    padding-top: 6px;
+    padding-bottom: 6px;
+ 
+}
+
+.perigo {
+    background-color: red;
+    color: white;
+}
+ p.perigo {
+    border: 5px solid yellowgreen;
+ }
+
+p {
+    background-color: green;
+    color: white;
+}
+
+p {
+    background-color: green;
+    color: white;
+}
+
+li:hover {
+    background-color: blue;
+    color: white;
+}
+
+li:active {
+    background-color: black;
+    color: white;
+}
+
+/* ol.ingredientes-bauru li, p {
+    background-color: yellow;
+    color: black;
+} */

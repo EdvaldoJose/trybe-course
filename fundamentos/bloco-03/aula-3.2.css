@@ -1,0 +1,43 @@
+          
+        h2 {
+            color: green;
+            size: 2em;
+          }
+  
+          body {
+              background-color: rgb(255, 400, 200);
+              font-size: 15px;
+          }
+          #extint {
+              background-color: red;
+              color: white;
+              font-style: italic;
+          }
+  
+          #description {
+              color: orange;
+          }
+  
+          .list-style {
+              background-color: blue;
+              color: white;
+              font-weight: bold;
+              font-style: italic;
+              line-height: 20px;
+              text-align: justify;
+              text-decoration: underline;
+          }
+          
+          p {
+              font-family: helvetica, arial;
+              font-style: italic;            
+          }
+
+          .list-style2 {
+            background-color: blue;
+            color: white;
+            font-weight: bold;
+            line-height: 20px;
+            text-align: justify;
+            
+        }

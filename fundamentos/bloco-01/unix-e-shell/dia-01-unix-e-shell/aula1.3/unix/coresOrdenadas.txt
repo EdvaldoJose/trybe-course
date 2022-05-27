@@ -1,0 +1,6 @@
+amarelp
+azul
+laranja
+marrom
+preto
+vermelho

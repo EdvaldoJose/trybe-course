@@ -1,0 +1,16 @@
+ 3395  mkdir aula
+ 3396  cd aula
+ 3397  ls
+ 3398  mkdir 2.1
+ 3399  cd 2.1
+ 3400  ls
+ 3401  git init
+ 3402  ls
+ 3403  ls -a
+ 3404  ls .git
+ 3405  touch comidas_maravilhosas.txt
+ 3406  ls
+ 3407  git status
+ 3408  git add comidas_maravilhosas.txt
+ 3409  git status
+ 3410  git commit -m 'Adiciona comidas maravilhosas'

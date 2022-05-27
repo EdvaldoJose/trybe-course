@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 100%;
+}
+
+a {
+  text-decoration: none;
+  padding: 0 10px;
+  opacity: 0.8;
+  color: black;
+}
+
+a:hover {
+  opacity: 1;
+}
+
+header {
+  background-color: white;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+header img {
+  width: 200px;
+}
+
+.hero {
+  padding-top: 100px;
+  background-image: url('images/hero.jpg');
+  height: 100vh;
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3.2rem;
+  margin-bottom: 15px;
+}
+
+.hero h3 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.hero .btn {
+  background-color: white;
+  padding: 20px 50px;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+.know-the-hotel {
+  padding: 100px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.know-the-hotel h3 {
+  font-size: 2rem;
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+.know-the-hotel p {
+  margin-bottom: 35px;
+  text-align: center;
+  max-width: 800px;
+}
+
+.know-the-hotel hr {
+  height: 2px;
+  color: black;
+  width: 200px;
+  margin-bottom: 35px;
+}
+
+.know-the-hotel .grid {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.know-the-hotel .grid li {
+  height: 350px;
+  padding: 20px;
+  background-size: cover;
+  list-style: none;
+  background-clip: content-box;
+}
+
+.know-the-hotel .grid li.small {
+  flex-basis: 40%;
+}
+
+.know-the-hotel .grid li.large {
+  flex-basis: 60%;
+}
+
+.features {
+  background-color: #191c03;
+  padding: 100px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.features h3 {
+  font-size: 2rem;
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+.features p {
+  margin-bottom: 35px;
+  text-align: center;
+  max-width: 800px;
+}
+
+.features hr {
+  height: 2px;
+  width: 200px;
+  margin-bottom: 35px;
+}
+
+.features .grid {
+  display: flex;
+}
+
+.features .grid li {
+  text-align: center;
+  list-style: none;
+  padding: 0 30px;
+}
+
+.features .grid li i {
+  font-size: 3.5rem;
+  color: #c3c63b;
+  margin-bottom: 30px;
+}
+
+.features .grid li h4 {
+  font-size: 1.5rem;
+  color: #c3c63b;
+  margin-bottom: 30px;
+}
+
+.newsletter {
+  color: #c3c63b;
+  padding: 100px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.newsletter h3 {
+  font-size: 2rem;
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+.newsletter p {
+  margin-bottom: 35px;
+  text-align: center;
+  max-width: 800px;
+}
+
+.newsletter hr {
+  height: 2px;
+  color: #c3c63b;
+  width: 200px;
+  margin-bottom: 35px;
+}
+
+.newsletter form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 80%;
+  max-width: 800px;
+}
+
+.newsletter input {
+  padding: 15px;
+  border: 1px solid #c3c63b;
+  border-radius: 4px;
+  margin-right: 15px;
+  flex: 1;
+}
+
+.newsletter button {
+  padding: 15px;
+  background-color: #c3c63b;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #191c03;
+  padding: 50px 0;
+}
+
+footer ul {
+  display: flex;
+  margin-bottom: 25px;
+}
+
+footer ul li {
+  margin-right: 10px;
+}
+
+footer ul li:last-child {
+  margin-right: 0;
+}
+
+footer ul li a {
+  color: #c3c63b;
+  font-size: 2rem;
+}
+
+footer p {
+  color: #c3c63b;
+  text-align: center;
+}

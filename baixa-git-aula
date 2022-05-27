@@ -1,0 +1,10 @@
+Copia o repositorio no git
+-> sd-022-a-live-lectures$ 
+-----------------------------------------------------------------
+Dá um -> git checkout lecture/6.x + repositório
+-----------------------------------------------------------------
+Dá um -> git pull
+-----------------------------------------------------------------
+Copia a pasta para dentro de trybe-reposiorio/
+-----------------------------------------------------------------
+Renomeio o auquivo da aula.
