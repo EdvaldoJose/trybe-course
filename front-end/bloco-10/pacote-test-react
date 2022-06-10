@@ -1,0 +1,14 @@
+Preparando a pasta para os test e para rodar o React.
+-----------------------------------------------------
+
+Dentro do diretório, onde vai rodar os test e o React digite;
+
+1- npm init (y)
+2- npm i --save-dev jest
+3- npm i react
+4- npx create-react-app (my-app-react) (y)
+5- .gitignore (node_modules/)
+6- package.json ("jest --watchAll")
+7- entra no my-app-react\
+8- npm start (start o db)
+9- code . -n (executa no vscode)
