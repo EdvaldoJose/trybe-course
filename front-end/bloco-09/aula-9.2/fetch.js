@@ -7,7 +7,7 @@ const fetchJoke = () => {
       .then((data) => console.log(data))
       .catch((error) => console.log(`Algo deu errado : (\n${error}`));
 
-  // console.log(fetch(url));
+  console.log(fetch(url));
 };
 
 fetchJoke();
