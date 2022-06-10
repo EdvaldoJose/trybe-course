@@ -96,7 +96,7 @@ console.log(filtrar(pessoas, 'C'));
 console.log(filtrar(pessoas, 'P'));
 console.log(filtrar(pessoas, 5));
 
-console.log('ooi');
+console.log('oi');
 
 
 
